@@ -19,10 +19,10 @@ public class Book {
 	private String publishedDate;
 	
 	@Column
-	private String totalCopies;
+	private Integer totalCopies;
 	
 	@Column
-	private String issuedCopies;
+	private Integer issuedCopies;
 	
 	@Column
 	private String author;
@@ -51,19 +51,19 @@ public class Book {
 		this.publishedDate = publishedDate;
 	}
 
-	public String getTotalCopies() {
+	public Integer getTotalCopies() {
 		return totalCopies;
 	}
 
-	public void setTotalCopies(String totalCopies) {
+	public void setTotalCopies(Integer totalCopies) {
 		this.totalCopies = totalCopies;
 	}
 
-	public String getIssuedCopies() {
+	public Integer getIssuedCopies() {
 		return issuedCopies;
 	}
 
-	public void setIssuedCopies(String issuedCopies) {
+	public void setIssuedCopies(Integer issuedCopies) {
 		this.issuedCopies = issuedCopies;
 	}
 
